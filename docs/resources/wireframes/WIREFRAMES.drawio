@@ -1,0 +1,1180 @@
+<mxfile host="Electron" pages="13">
+  <diagram id="p1" name="WF-01 Login">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-01 · Login&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="720" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Visitor · use cases: authenticate (UC-02)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="410" x="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="720" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: AuthController · Entities: User, Role · Navigation: -&amp;gt; home page of the role&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="720" x="80" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="720" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Sign in&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;E-mail&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="230" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;name@clinic.org&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="330" x="360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="230" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;••••••••&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="330" x="360" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Sign in&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="140" x="360" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Generic error: &#39;E-mail or password is incorrect&#39; (no detail)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="420" x="230" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Account locked 15 minutes after 5 failed attempts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="420" x="230" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="WF-02 Change temporary password">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-02 · Change temporary password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;All staff · use case: authenticate (UC-02)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: AuthController · Entities: User · Navigation: -&amp;gt; home page of the role&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Change your password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="290" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;First login: choose a new password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="420" x="230" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;New password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="230" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="330" x="360" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Confirm password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="230" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="330" x="360" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Save&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="140" x="360" y="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p3" name="WF-03 Mothers list (midwife)">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-03 · Mothers list (midwife)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife · use case: view mothers (UC-05)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: MotherController · Entities: Mother, Consent, Visit · Navigation: -&amp;gt; W-04, W-05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="276" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="414" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="536" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers of my clinic&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+ Register a mother&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="190" x="600" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Search&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;name or phone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="300" x="160" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Phone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Due date / birth&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Consent&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Next visit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;A. Mwamba&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+243 8xx xxx&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;12 Jan 2027&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Given&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;20 Nov 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;B. Kavira&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+243 9xx xxx&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Child: 3 Aug 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Given&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;25 Nov 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;C. Ndaya&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+243 8xx xxx&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;28 Feb 2027&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Given&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;02 Dec 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="284" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p4" name="WF-04 Register a mother">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-04 · Register a mother&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife · use case: register a mother (UC-04)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: MotherController, CalendarGenerator · Entities: Mother, Consent, Visit, Reminder · Navigation: -&amp;gt; W-05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="276" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="414" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Georgia&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="536" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Register a mother&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Full name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="320" x="182" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Phone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+243 ...&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="182" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Expected due date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;dd/mm/yyyy&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="182" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;or child&#39;s birth date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="150" x="30" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;dd/mm/yyyy&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="182" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinic&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;(my clinic)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="182" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;☐ The mother gives her consent to receive reminders&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="320" x="30" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Channel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;SMS / WhatsApp&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="160" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Register&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="140" x="30" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Cancel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="110" x="190" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;shape=note;whiteSpace=wrap;html=1;size=12;fontSize=10;fillColor=#FFFFE0;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Without consent the record cannot be created. Phone and dates are validated.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="240" x="490" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p5" name="WF-05 Mother record and calendar">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-05 · Mother record and calendar&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="880" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife · use cases: view and edit a record (UC-05), withdraw consent&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="470" x="408" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="400" width="880" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: MotherController · Entities: Mother, Consent, Visit · 1 Mother -&amp;gt; N Visit · Navigation: -&amp;gt; W-06&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="880" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="880" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="150" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="250" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="390" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="517" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="790" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;A. Mwamba&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Phone +243 8xx xxx · Due date 12 Jan 2027 · Consent given (SMS)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="560" x="30" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Edit record&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="110" x="620" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Withdraw consent&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="120" x="740" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Visit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Type&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal 4&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;20 Nov 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Planned&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Record / Postpone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;02 Oct 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Attended&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;10 Aug 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Attended&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="274" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p6" name="WF-06 Record attendance / postpone">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-06 · Record attendance / postpone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife · use cases: record attendance (UC-07), postpone a visit (UC-08)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: VisitController · Entities: Visit, Reminder, AuditLog · Navigation: -&amp;gt; W-05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="276" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="414" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="536" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Visit: Antenatal 4 - 20 Nov 2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mother: A. Mwamba&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="360" x="30" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Attended / Absent&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Save status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="150" x="30" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Or postpone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;New date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;dd/mm/yyyy (future)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="160" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Postpone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="150" x="30" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;shape=note;whiteSpace=wrap;html=1;size=12;fontSize=10;fillColor=#FFFFE0;" value="&lt;font face=&quot;Lucida Console&quot;&gt;An upcoming visit cannot be marked attended or absent. The old date is kept.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="470" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p7" name="WF-07 Daily follow-up list">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-07 · Daily follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife · use case: daily follow-up list (UC-10)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: FollowUpController · Entities: FollowUpCase, Visit, Mother · Navigation: -&amp;gt; W-08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="276" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="414" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="536" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list - today&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Phone&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="156.66666666666669" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Missed visit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="283.33333333333337" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Days&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="410" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Attempts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="536.6666666666667" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="663.3333333333334" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Georgia&quot;&gt;D. Tshala&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="30" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+243 8xx xxx&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="156.66666666666669" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal 3 - 12 Nov&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="283.33333333333337" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;7&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="410" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="536.6666666666667" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Record outcome&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="663.3333333333334" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;E. Mbuyi&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="30" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+243 9xx xxx&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="156.66666666666669" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Postnatal 1 - 15 Nov&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="283.33333333333337" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;4&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="410" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;0&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="536.6666666666667" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Record outcome&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="126.66666666666667" x="663.3333333333334" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Status to confirm&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Visit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;F. Kasongo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="c38" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;17 Nov&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="c39" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Set status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="338" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p8" name="WF-08 Record a follow-up outcome">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-08 · Record a follow-up outcome&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife · use case: record a follow-up outcome (UC-11)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: FollowUpController · Entities: FollowUpCase, FollowUpAttempt, Visit · Navigation: -&amp;gt; W-07&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mothers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="276" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="414" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="536" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Outcome of the call - D. Tshala&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Missed: Antenatal 3 - 12 Nov · Attempts so far: 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="500" x="30" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Outcome&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Unreachable / Wrong number / Rescheduled / No longer wants follow-up&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="420" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;New date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;only if rescheduled&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="160" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Note&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Tahoma&quot;&gt;no medical detail&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="420" x="160" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Save outcome&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="150" x="30" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;shape=note;whiteSpace=wrap;html=1;size=12;fontSize=10;fillColor=#FFFFE0;" value="&lt;font face=&quot;Lucida Console&quot;&gt;3 unsuccessful attempts: case becomes &#39;not reached&#39;.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="560" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p9" name="WF-09 Reminder sending log (manager)">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-09 · Reminder sending log (manager)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinic manager · use case: reminder sending log (UC-13)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: ReminderController · Entities: Reminder, Visit, Mother · Navigation: -&amp;gt; W-10, W-13&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Staff accounts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="318" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="440" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;From&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="40" x="30" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;dd/mm/yyyy&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="180" x="90" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;To&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="44" x="316" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;dd/mm/yyyy&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="180" x="380" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="60" x="610" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;All&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="100" x="690" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mother&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Visit date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="Status" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Sent at&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;A. Mwamba&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;20 Nov&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;D-2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="Sent" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;18 Nov 09:00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;A. Mwamba&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;20 Nov&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;D-1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Scheduled&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;19 Nov 09:00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;B. Kavira&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="30" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;25 Nov&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="182" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;D-2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="334" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Cancelled&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="152" x="486" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="-" vertex="1">
+          <mxGeometry height="28" width="152" x="638" y="284" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p10" name="WF-10 Staff accounts (manager)">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-10 · Staff accounts (manager)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinic manager · use cases: create / deactivate staff accounts (UC-03)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: UserController · Entities: User, Role · Navigation: -&amp;gt; W-09&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Staff accounts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="318" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="440" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Staff accounts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+ Create account&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="170" x="620" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;E-mail&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Role&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;amina@clinic.org&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Active&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Deactivate&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;jean@clinic.org&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Deactivated&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;New account&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;E-mail&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="320" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Role&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Midwife&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="320" x="160" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Create (temporary password)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="220" x="30" y="416" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p11" name="WF-11 Clinics and manager accounts (administrator)">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-11 · Clinics and manager accounts (administrator)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="920" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="Administrator · use cases: clinics and manager accounts (UC-15..UC-18)" vertex="1">
+          <mxGeometry height="40" width="510" x="390" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="560" width="920" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: ClinicController, UserController · Entities: Clinic, User · Navigation: -&amp;gt; W-12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="920" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="920" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinics&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="180" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Manager accounts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="148" x="276" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Calendar rules&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="430" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Settings&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="568" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="664" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="830" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinics&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="70" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;+ Create a clinic&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="170" x="730" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="Name" vertex="1">
+          <mxGeometry height="38" width="190" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;City&lt;/font&gt;" vertex="1">
+          <mxGeometry height="38" width="190" x="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="38" width="190" x="450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="38" width="190" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinique Espoir&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="70" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Goma&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="260" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Active&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="450" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Deactivate&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="630" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Centre Hekima&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="70" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Goma&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="260" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;&amp;nbsp; Active&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="180" x="450" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Deactivate&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="630" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;New clinic&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="70" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="70" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="320" x="195" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;City&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="70" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="320" x="195" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Create&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="140" x="70" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p12" name="WF-12 Calendar rules and settings (administrator)">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-12 · Calendar rules and settings (administrator)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="880" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Administrator · use cases: calendar rules, settings (UC-19, UC-20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="360" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="880" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: SettingsController · Entities: CalendarRule, SystemSetting, AuditLog · Navigation: -&amp;gt; W-11&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="880" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;MamaMed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="880" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Clinics&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="130" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Manager accounts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="148" x="230" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Calendar rules&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="132" x="390" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Settings&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="530" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="630" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="800" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Calendar rules&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Visit type&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Label&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Anchor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Offset (days)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Antenatal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Contact 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Due date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;-196&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Postnatal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Day 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Birth&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Immunization&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;6 weeks&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Birth&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;42&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;System settings&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder time&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;09:00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="200" x="160" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Send retries&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="200" x="160" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Follow-up attempts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="120" x="30" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="&lt;font face=&quot;Lucida Console&quot;&gt;3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="200" x="160" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" parent="1" style="fontFamily=Courier New;rounded=1;html=1;fontSize=11;fillColor=#DDDDDD;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Save&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32" width="140" x="30" y="452" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p13" name="WF-13 Access history">
+    <mxGraphModel dx="1465" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#1F2328;strokeColor=#1F2328;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=14;" value="&lt;font face=&quot;Lucida Console&quot;&gt;W-13 · Access history&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="fontFamily=Courier New;text;html=1;align=right;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Manager / Administrator · use cases: access history (UC-14, UC-21)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="510" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="fontFamily=Courier New;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1F2328;" value="" vertex="1">
+          <mxGeometry height="560" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="fontFamily=Courier New;rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#1F2328;dashed=1;fontSize=9;align=left;spacingLeft=8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Controls: AuditController · Entities: AuditLog, User · No health details displayed · Navigation: -&amp;gt; W-09&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="820" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fillColor=#E8EAED;strokeColor=none;align=left;spacingLeft=14;fontStyle=1;fontSize=14;" value="MamaMed" vertex="1">
+          <mxGeometry height="44" width="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Reminder log&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="116" x="200" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="fontFamily=Courier New;rounded=0;html=1;align=center;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="90" x="340" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Logout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="70" x="730" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontStyle=1;fontSize=15;" value="&lt;font face=&quot;Lucida Console&quot;&gt;History of accesses and modifications&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="400" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;User&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="60" x="30" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="150" x="120" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="70" x="310" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="150" x="410" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="40" x="600" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;fontColor=#888888;align=left;spacingLeft=6;" value="" vertex="1">
+          <mxGeometry height="26" width="120" x="670" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;User&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Action&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontStyle=1;fontSize=10;fillColor=#E8E8E8;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Record&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;19 Nov 10:12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;amina@clinic.org&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Edit record&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Mother #A12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;19 Nov 09:40&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="30" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;amina@clinic.org&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="220" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Record outcome&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="410" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="fontFamily=Courier New;rounded=0;html=1;fontSize=10;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Case #C07&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="190" x="600" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="fontFamily=Courier New;text;html=1;align=left;fontSize=11;whiteSpace=wrap;" value="&lt;font face=&quot;Lucida Console&quot;&gt;No health details are displayed.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="360" x="30" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
